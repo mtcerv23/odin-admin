@@ -5,8 +5,14 @@ main {
 
 .sidebar {
   border: 1px solid blue;
+  grid-row: 1 / 3;
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 1fr 5fr;
+  /* row-gap: 50px; */
+}
+
+.home-button {
+  grid-column: 1 / -1;
 }
 
 .sidebar,

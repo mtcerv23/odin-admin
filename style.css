@@ -11,6 +11,6 @@ main {
 
 .sidebar,
 .header,
-.main-content {
+.main-content > * {
   border: 1px solid red;
 }
